@@ -220,3 +220,24 @@ li { margin-bottom: 6px; }
   main { padding: 32px 18px 72px; }
   .doc-grid { grid-template-columns: 1fr; }
 }
+
+/* Site-wide footer (separate from each document's own doc-footer) */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  background: var(--paper-raised);
+}
+
+.site-footer__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 20px 24px;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.site-footer__inner p {
+  margin: 0;
+}
